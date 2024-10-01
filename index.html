@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauhan Crispy Crunch</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section / Home Section -->
+    <section id="home" class="hero-section">
+        <h1>Welcome to Chauhan Crispy Crunch!</h1>
+        <p>Get ready for a world of playful, crunchy goodness!</p>
+        <button class="explore-button">Let's Crunch!</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>Who Are We?</h2>
+        <p>At Chauhan Crispy Crunch, we believe in fun and flavor! We started in 2024 with a mission to make every snack time a delightful, crunchy adventure. Our snacks are bold, exciting, and perfect for any occasion.</p>
+        <p>We promise you'll find joy in every bite!</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="product-section">
+        <h2>Our Fun Snacks!</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Crunchy Chips">
+                <h3>Crunchy Chips</h3>
+                <p>Super crispy and fun to munch on!</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Spicy Mix">
+                <h3>Spicy Mix</h3>
+                <p>A burst of spicy excitement with every bite!</p>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Sweet Bites">
+                <h3>Sweet Bites</h3>
+                <p>Perfectly sweet and a little crunchy!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Let's Chat!</h2>
+        <p>Have questions or just want to say hello? Reach out to us!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Chauhan Crispy Crunch. All rights reserved. Let’s keep it crispy!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
